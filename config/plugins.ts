@@ -1,5 +1,6 @@
 // ./config/plugins.js
-module.exports = ({ env }) => ({
+
+export default ({ env }) => ({
     graphql: {
       enabled: true,
     },
